@@ -1,0 +1,38 @@
+
+.parent {
+  position:relative;
+  height: 100vh;
+  width: 100vw;
+  text-transform:capitalize ;
+  letter-spacing: 2px;
+  
+ 
+}
+
+.top {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border: solid 3px;
+}
+
+.right {
+    position: absolute;
+    top: 0;
+    right: 0;
+    border: solid 3px;
+}
+
+.left {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    border: solid 3px;
+}
+
+.bottom {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    border: solid 3px;
+}
